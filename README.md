@@ -62,26 +62,8 @@ ORDER BY
     total_deposits DESC;
 ```
 
-# Result Sample (First Row)
-<table>
-    <thead>
-        <tr>
-            <th>owner_id</th>
-            <th>name</th>
-            <th>savings_count</th>
-            <th>investment_count</th>
-            <th>total_deposits</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1909df3eba2548cfa3b9c270112bd262</td>
-            <td>Chima Ataman</td>
-            <td>3</td>
-            <td>9</td>
-            <td>890312215.48</td>
-        </tr>
-
+## Result Sample (First Row)
+<img width="626" alt="Quesion 1 screenshot" src="https://github.com/user-attachments/assets/22780471-5f2e-49f7-8873-c7cf111c235b" />
 
 
 ## Question 2
@@ -143,20 +125,8 @@ ORDER BY
     FIELD(frequency_category, 'High Frequency', 'Medium Frequency', 'Low Frequency');
 ```
 # Result Sample (First Row)
-<table>
-    <thead>
-        <tr>
-            <th>frequency_category</th>
-            <th>customer_count</th>
-            <th>avg_transactions_per_month</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>High Frequency</td>
-            <td>141</td>
-            <td>44.7</td>
-        </tr>
+<img width="404" alt="Quesion 2 screenshot" src="https://github.com/user-attachments/assets/17069401-0c99-4736-ad57-389c1f7d43b1" />
+
 
 ## Question 3
 <p>Account Inactivity Alert</p>
@@ -205,24 +175,7 @@ ORDER BY
     inactivity_days DESC;
 ```
 # Result Sample (First Row)
-<table>
-    <thead>
-        <tr>
-            <th>plan_id</th>
-            <th>owner_id</th>
-            <th>type</th>
-            <th>last_transaction_date</th>
-            <th>inactivity_days</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ba6cda07fcd44c6a812fb0b7fee01b3c</td>
-            <td>0257625a02344b239b41e1cbe60ef080</td>
-            <td>Savings</td>
-            <td>2016-09-18 19:07:14</td>
-            <td>3164</td>
-        </tr>
+<img width="723" alt="Quesion 3 screenshot" src="https://github.com/user-attachments/assets/86888375-7007-4a71-90b3-cd56013bcaa3" />
 
 
 ## Question 4
@@ -241,7 +194,6 @@ For each customer, assuming the profit_per_transaction is 0.1% of the transactio
 
 * users_customuser
 * savings_savingsaccount
-
 
 #
 ```python
@@ -267,24 +219,10 @@ GROUP BY
 ORDER BY 
     estimated_clv DESC;
 ```
-
-
 # Result Sample (First Row)
-<table>
-    <thead>
-        <tr>
-            <th>customer_id</th>
-            <th>name</th>
-            <th>tenure_months</th>
-            <th>total_transactions</th>
-            <th>estimated_clv</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1909df3eba2548cfa3b9c270112bd262'</td>
-            <td>Chima Ataman</td>
-            <td>28</td>
-            <td>2383</td>
-            <td>381562.38</td>
-        </tr>
+<img width="631" alt="Quesion 4 screenshot" src="https://github.com/user-attachments/assets/cc56edb8-58cb-45a4-ab03-1f2a92600cb2" />
+
+# THANK YOU COWRYWISE!!! ❤️🙋‍♂️
+
+
+
